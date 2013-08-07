@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*
+Description: Web 2 Midterm
+Author: Sarah Konyer
+Date: 06/10/13
+*/
+
+body p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #c6c6c6;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+p {
+margin-bottom: 12px;
+}
+
+body {
+padding: 0;
+margin: 0;
+background-color: #fff;
+} 
+
+a:link, a:visited {
+color: #000000;
+text-decoration: none;
+}
+
+a:hover {
+color: #666666;
+text-decoration: none;
+}
+
+img {
+border: 0px;
+}
+
+
+#container {
+margin: 0px auto;
+width: 825px;
+} 
+
+#topborder {
+margin-left: 25px;
+width: 800px;
+}
+
+#header {
+margin-top: 50px;
+width: 825px;
+position: relative;
+z-index: 99999;
+} 
+
+#logo {
+float: left;
+width: 225px;
+}
+
+/* navigation begins*/
+
+.navigation {
+padding-top: 57px;
+}
+
+.navleft {
+float: left;
+}
+
+.navright {
+float: right;
+margin-top: -5px;
+}
+
+#navi{
+list-style:none;
+float:left;
+margin: 0px;
+padding: 0px;
+width:100%;
+position:relative;
+z-index:5;
+font-size: 20px;
+letter-spacing: 4px;
+}
+
+#navi li{
+float:left;
+margin-right:10px;
+position:relative;
+}
+
+#navi a{
+display:block;
+padding:5px;
+border-bottom: 5px solid #c6c6c6;
+text-transform: uppercase;
+color:#BFB6B4;
+}
+
+
+#navi ul{
+background:#e6e6e6;
+background:rgba(255,255,255,0);
+list-style:none;
+position:absolute;
+font-size: 15px;
+padding: 5px;
+border-left: 5px solid #EFD25C;
+left:-9999px;
+}
+
+#navi ul li{
+padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+float:none;
+}
+
+/* navigation ends */
+
+#homepage {
+width: 800px;
+margin-left: -100px;
+margin-top: -70px;
+position: relative;
+z-index: 22;
+}
+
+#footer {
+background-color: #f6f5f4;
+height: 10px;
+margin: 50px auto 0 auto;
+padding-top: 40px;	
+clear: both;
+width: 800px;
+margin-left: 25px;
+float: left;
+color: #adadad;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+
+.clear {
+clear: both;
+}
